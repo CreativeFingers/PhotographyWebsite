@@ -50,10 +50,37 @@ padding:80px;
 }
 .my_nav li a:hover{
 	color:#E3A8DA!important;
-	font-size:22px;
+	font-size:19px;
 
-	
 }
+
+.navbar-default .navbar-nav > .active{
+    color: #C974A4!important;
+   background: none!important;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #C974A4!important;
+         background: none!important;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner_main{
 	position:absolute;
 	bottom:5%;
@@ -434,8 +461,71 @@ hr{
 	
 	
 }
+/*========================contact page==========================*/
 
+.black_conatct{
+	background:#1A1A1A;
+	padding:100px;
 
+}
+h3{
+ color:#fff;
+ margin:20px 0 10px 0; 
+}
+
+h2{
+ color:#fff;
+ font-size:30px;
+ margin:10px 0 10px 0; 
+}
+h1{
+ color:#C974A4;
+ font-size:40px;
+ margin:5px 0 10px 0; 
+}
+.my_formcontrol{
+	height:50px;
+	background:#4E4E4E;
+	border:none;
+	width:500px;
+	color:#fff;
+
+}
+.my_formcontrol2{
+	height:200px!important;
+	 resize: vertical;
+	background:#4E4E4E;
+	border:none;
+	width:500px;
+	color:#fff;
+	
+
+}
+.contact_btn{
+	color:#1A1A1A;
+	background:#C974A4;
+	width:100px;
+	height:40px;
+	border-radius:2px;
+	font-weight:bold;
+	border:none;
+}
+/*====================top button====================*/
+#top_btn{
+	display:none;
+	color:#fff;
+	background:#C974A4;
+	border-radius:50%;
+	padding:10px 17px 10px 17px;
+	position:fixed;
+	cursor:pointer;
+	bottom:100px;
+	right:50px;
+	border:none;
+	outline:none;
+	font-size:20px;
+	z-index:999;
+}
 
 
 
